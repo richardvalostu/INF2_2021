@@ -1,3 +1,4 @@
+# Script for 1st exam 
 echo "PC name:"
 (Get-WmiObject -Class:Win32_ComputerSystem).Name
 echo "PC model:"
