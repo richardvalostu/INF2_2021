@@ -1,3 +1,4 @@
+# Script for view some parameters of disks one disk after other one
 $disky=(Get-PhysicalDisk)
 $cislo=0
 foreach($disk in $disky)
