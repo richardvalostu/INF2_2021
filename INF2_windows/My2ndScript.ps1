@@ -1,3 +1,4 @@
+# Script for 2nd exam
 $name_author="Elvis Preslay"
 (Get-Content $pwd\HWspec.tex) | Foreach-Object { $_ -replace " *:[^\/].*", ":"} | Set-Content $pwd\HWspec2.tex
 (Get-Content $pwd\HWspec2.tex) | Foreach-Object { $_ -replace "\\author{.*}", "\author{$name_author}"} | Set-Content $pwd\HWspecFinal.tex
